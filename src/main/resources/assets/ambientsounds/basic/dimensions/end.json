@@ -1,0 +1,25 @@
+{
+    "name": "end",
+    "dimension-names": [
+        "minecraft:the_end"
+    ],
+    "rain": false,
+    "storm": false,
+    "biome-selector": {
+        "always": false
+    },
+    "regions": [
+        {
+            "name": "suspense",
+            "sounds": [
+                {
+                    "name": "end",
+                    "files": [
+                        "ambientsounds:suspense.end"
+                    ],
+                    "volume": 0.3
+                }
+            ]
+        }
+    ]
+}

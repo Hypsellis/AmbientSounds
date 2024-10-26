@@ -1,0 +1,20 @@
+{
+    "name": "river",
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
+    "biomes": [
+        "#minecraft:is_river"
+    ],
+    "sounds": [
+        {
+            "name": "river",
+            "files": [
+                "ambientsounds:water.river"
+            ],
+            "volume": 0.2
+        }
+    ]
+}

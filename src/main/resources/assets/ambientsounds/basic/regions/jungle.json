@@ -1,0 +1,97 @@
+{
+    "name": "jungle",
+    "biomes": [
+        "#minecraft:is_jungle"
+    ],
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
+    "sounds": [
+        {
+            "name": "bird-jungle",
+            "files": [
+                "ambientsounds:animals.bird-jungle1",
+                "ambientsounds:animals.bird-jungle2"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            },
+            "length": {
+                "min": 1500,
+                "max": 2000
+            },
+            "transition": 200
+        },
+        {
+            "name": "bird-jungle-night",
+            "files": [
+                "ambientsounds:animals.bird-jungle-night1",
+                "ambientsounds:animals.bird-jungle-night2"
+            ],
+            "time": {
+                "6": 1,
+                "6.5": 0.75,
+                "7": 0.5,
+                "7.5": 0.25,
+                "8": 0,
+                "16": 0,
+                "16.5": 0.25,
+                "17": 0.5,
+                "17.5": 0.75,
+                "18": 1
+            },
+            "length": {
+                "min": 1500,
+                "max": 2000
+            },
+            "transition": 200
+        },
+        {
+            "name": "cricket-jungle",
+            "files": [
+                "ambientsounds:animals.cricket-jungle"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            }
+        },
+        {
+            "name": "cricket-jungle-night",
+            "files": [
+                "ambientsounds:animals.cricket-jungle-night"
+            ],
+            "time": {
+                "6": 1,
+                "6.5": 0.75,
+                "7": 0.5,
+                "7.5": 0.25,
+                "8": 0,
+                "16": 0,
+                "16.5": 0.25,
+                "17": 0.5,
+                "17.5": 0.75,
+                "18": 1
+            }
+        }
+    ]
+}

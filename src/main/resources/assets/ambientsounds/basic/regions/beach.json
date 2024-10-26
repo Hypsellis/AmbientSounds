@@ -1,0 +1,48 @@
+{
+    "name": "beach",
+    "biomes": [
+        "#minecraft:is_beach"
+    ],
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
+    "sounds": [
+        {
+            "name": "ocean",
+            "files": [
+                "ambientsounds:water.ocean1",
+                "ambientsounds:water.ocean2"
+            ],
+            "volume": 0.2
+        },
+        {
+            "name": "seagull",
+            "files": [
+                "ambientsounds:animals.seagull1",
+                "ambientsounds:animals.seagull2",
+                "ambientsounds:animals.seagull3",
+                "ambientsounds:animals.seagull4",
+                "ambientsounds:animals.seagull5",
+                "ambientsounds:animals.seagull6"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            },
+            "pause": {
+                "min": 700,
+                "max": 1000
+            }
+        }
+    ]
+}

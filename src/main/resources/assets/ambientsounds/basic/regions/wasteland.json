@@ -1,0 +1,42 @@
+{
+    "name": "wasteland",
+    "biomes": [
+        "#forge:is_wasteland",
+        "#c:is_wasteland"
+    ],
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
+    "sounds": [
+        {
+            "name": "light-wind",
+            "files": [
+                "ambientsounds:wind.light-wind1",
+                "ambientsounds:wind.light-wind2"
+            ],
+            "length": {
+                "min": 2000,
+                "max": 4000
+            },
+            "transition": 400,
+            "volume": 0.5
+        },
+        {
+            "name": "wind-in-leaves",
+            "files": [
+                "ambientsounds:wind.wind-in-leaves"
+            ],
+            "features": [
+                "tree"
+            ],
+            "length": {
+                "min": 2000,
+                "max": 4000
+            },
+            "transition": 400,
+            "volume": 0.1
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "name": "plains",
+    "biomes": [
+        "#forge:is_plains",
+        "#c:is_plains"
+    ],
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
+    "sounds": [
+        {
+            "name": "bird-plains",
+            "files": [
+                "ambientsounds:animals.bird-plains"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            },
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 200
+        },
+        {
+            "name": "cricket",
+            "files": [
+                "ambientsounds:animals.cricket1",
+                "ambientsounds:animals.cricket2",
+                "ambientsounds:animals.cricket3"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            },
+            "length": {
+                "min": 1000,
+                "max": 1500
+            },
+            "transition": 100
+        },
+        {
+            "name": "cricket-night",
+            "files": [
+                "ambientsounds:animals.cricket-night1",
+                "ambientsounds:animals.cricket-night2",
+                "ambientsounds:animals.cricket-night3",
+                "ambientsounds:animals.cricket-night4",
+                "ambientsounds:animals.cricket-night5"
+            ],
+            "time": {
+                "6": 1,
+                "6.5": 0.75,
+                "7": 0.5,
+                "7.5": 0.25,
+                "8": 0,
+                "16": 0,
+                "16.5": 0.25,
+                "17": 0.5,
+                "17.5": 0.75,
+                "18": 1
+            },
+            "length": {
+                "min": 1000,
+                "max": 1500
+            },
+            "transition": 100
+        },
+        {
+            "name": "cicada",
+            "files": [
+                "ambientsounds:animals.cicada"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            },
+            "length": {
+                "min": 100,
+                "max": 300
+            },
+            "pause": {
+                "min": 100,
+                "max": 500
+            }
+        },
+        {
+            "name": "cicada-night",
+            "files": [
+                "ambientsounds:animals.cicada-night"
+            ],
+            "time": {
+                "6": 1,
+                "6.5": 0.75,
+                "7": 0.5,
+                "7.5": 0.25,
+                "8": 0,
+                "16": 0,
+                "16.5": 0.25,
+                "17": 0.5,
+                "17.5": 0.75,
+                "18": 1
+            }
+        }
+    ]
+}

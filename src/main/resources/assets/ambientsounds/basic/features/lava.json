@@ -1,0 +1,7 @@
+{
+    "name": "lava",
+    "groups": [
+        "lava"
+    ],
+    "low-count": 10
+}

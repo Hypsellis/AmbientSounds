@@ -1,0 +1,160 @@
+{
+    "name": "forest",
+    "biomes": [
+        "#minecraft:is_forest",
+        "minecraft:cherry_grove"
+    ],
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
+    "sounds": [
+        {
+            "name": "bird",
+            "files": [
+                "ambientsounds:animals.bird1",
+                "ambientsounds:animals.bird2",
+                "ambientsounds:animals.bird3",
+                "ambientsounds:animals.bird4",
+                "ambientsounds:animals.bird5",
+                "ambientsounds:animals.bird6",
+                "ambientsounds:animals.bird7",
+                "ambientsounds:animals.bird8",
+                "ambientsounds:animals.bird9",
+                "ambientsounds:animals.bird10",
+                "ambientsounds:animals.bird11",
+                "ambientsounds:animals.bird12",
+                "ambientsounds:animals.bird13",
+                "ambientsounds:animals.bird14",
+                "ambientsounds:animals.bird15",
+                "ambientsounds:animals.bird16"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            },
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 400
+        },
+        {
+            "name": "crow",
+            "files": [
+                "ambientsounds:animals.crow1",
+                "ambientsounds:animals.crow2",
+                "ambientsounds:animals.crow3",
+                "ambientsounds:animals.crow4",
+                "ambientsounds:animals.crow5",
+                "ambientsounds:animals.crow6",
+                "ambientsounds:animals.crow7",
+                "ambientsounds:animals.crow8"
+            ],
+            "pause": {
+                "min": 100,
+                "max": 500
+            },
+            "volume": 0.5
+        },
+        {
+            "name": "owl",
+            "files": [
+                "ambientsounds:animals.owl1",
+                "ambientsounds:animals.owl2",
+                "ambientsounds:animals.owl3",
+                "ambientsounds:animals.owl4",
+                "ambientsounds:animals.owl5",
+                "ambientsounds:animals.owl6",
+                "ambientsounds:animals.owl7",
+                "ambientsounds:animals.owl8",
+                "ambientsounds:animals.owl9",
+                "ambientsounds:animals.owl10"
+            ],
+            "time": "night",
+            "pause": {
+                "min": 100,
+                "max": 500
+            }
+        },
+        {
+            "name": "cricket",
+            "files": [
+                "ambientsounds:animals.cricket1",
+                "ambientsounds:animals.cricket2",
+                "ambientsounds:animals.cricket3"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            },
+            "length": {
+                "min": 1000,
+                "max": 1500
+            },
+            "transition": 100
+        },
+        {
+            "name": "cricket-night",
+            "files": [
+                "ambientsounds:animals.cricket-night1",
+                "ambientsounds:animals.cricket-night2",
+                "ambientsounds:animals.cricket-night3",
+                "ambientsounds:animals.cricket-night4",
+                "ambientsounds:animals.cricket-night5"
+            ],
+            "time": {
+                "6": 1,
+                "6.5": 0.75,
+                "7": 0.5,
+                "7.5": 0.25,
+                "8": 0,
+                "16": 0,
+                "16.5": 0.25,
+                "17": 0.5,
+                "17.5": 0.75,
+                "18": 1
+            },
+            "length": {
+                "min": 1000,
+                "max": 1500
+            },
+            "transition": 100
+        },
+        {
+            "name": "cicada-night",
+            "files": [
+                "ambientsounds:animals.cicada-night"
+            ],
+            "time": {
+                "6": 1,
+                "6.5": 0.75,
+                "7": 0.5,
+                "7.5": 0.25,
+                "8": 0,
+                "16": 0,
+                "16.5": 0.25,
+                "17": 0.5,
+                "17.5": 0.75,
+                "18": 1
+            }
+        }
+    ]
+}

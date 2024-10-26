@@ -1,0 +1,39 @@
+{
+    "name": "cave-lush",
+    "biomes": [
+        "minecraft:lush_caves"
+    ],
+    "mute": 1,
+    "mute-priority": 5,
+    "sounds": [
+        {
+            "name": "cave-lush",
+            "files": [
+                "ambientsounds:cave.lush"
+            ],
+            "volume": 0.5
+        },
+        {
+            "name": "frog-cave",
+            "files": [
+                "ambientsounds:animals.animals.frog-cave"
+            ],
+            "pause": {
+                "min": 100,
+                "max": 500
+            },
+            "volume": 0.2
+        },
+        {
+            "name": "frog-special",
+            "files": [
+                "ambientsounds:animals.frog-special"
+            ],
+            "pause": {
+                "min": 100,
+                "max": 500
+            },
+            "volume": 0.2
+        }
+    ]
+}

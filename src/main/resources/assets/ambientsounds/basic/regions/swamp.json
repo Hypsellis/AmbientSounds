@@ -1,0 +1,84 @@
+{
+    "name": "swamp",
+    "biomes": [
+        "#forge:is_swamp",
+        "#c:is_swamp"
+    ],
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
+    "sounds": [
+        {
+            "name": "bird-plains",
+            "files": [
+                "ambientsounds:animals.bird-plains"
+            ],
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
+            },
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 200
+        },
+        {
+            "name": "mouring-dove",
+            "files": [
+                "ambientsounds:animals.mouring-dove1",
+                "ambientsounds:animals.mouring-dove2"
+            ],
+            "pause": {
+                "min": 100,
+                "max": 500
+            },
+            "volume": 0.2
+        },
+        {
+            "name": "frog",
+            "files": [
+                "ambientsounds:animals.frog1",
+                "ambientsounds:animals.frog2"
+            ],
+            "pause": {
+                "min": 100,
+                "max": 500
+            },
+            "volume": 0.2
+        },
+        {
+            "name": "frog-special",
+            "files": [
+                "ambientsounds:animals.frog-special"
+            ],
+            "pause": {
+                "min": 100,
+                "max": 500
+            },
+            "volume": 0.2
+        },
+        {
+            "name": "cricket-swamp",
+            "files": [
+                "ambientsounds:animals.cricket-swamp"
+            ]
+        },
+        {
+            "name": "cicada-swamp",
+            "files": [
+                "ambientsounds:animals.cicada-swamp"
+            ]
+        }
+    ]
+}

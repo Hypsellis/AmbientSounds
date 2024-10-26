@@ -1,0 +1,9 @@
+{
+    "name": "twilightforest",
+    "dimension-names": [
+        "twilightforest:twilightforest"
+    ],
+    "biome-selector": {
+        "always": true
+    }
+}

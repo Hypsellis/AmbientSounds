@@ -1,0 +1,21 @@
+{
+    "name": "ocean",
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
+    "biomes": [
+        "#minecraft:is_ocean"
+    ],
+    "sounds": [
+        {
+            "name": "ocean",
+            "files": [
+                "ambientsounds:water.ocean1",
+                "ambientsounds:water.ocean2"
+            ],
+            "volume": 0.2
+        }
+    ]
+}
