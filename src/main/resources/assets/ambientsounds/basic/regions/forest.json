@@ -23,12 +23,7 @@
                 "ambientsounds:animals.bird8",
                 "ambientsounds:animals.bird9",
                 "ambientsounds:animals.bird10",
-                "ambientsounds:animals.bird11",
-                "ambientsounds:animals.bird12",
-                "ambientsounds:animals.bird13",
-                "ambientsounds:animals.bird14",
-                "ambientsounds:animals.bird15",
-                "ambientsounds:animals.bird16"
+                "ambientsounds:animals.bird11"
             ],
             "time": {
                 "6": 0,
@@ -109,7 +104,8 @@
                 "min": 1000,
                 "max": 1500
             },
-            "transition": 100
+            "transition": 100,
+            "volume": 0.8
         },
         {
             "name": "cricket-night",
@@ -136,7 +132,8 @@
                 "min": 1000,
                 "max": 1500
             },
-            "transition": 100
+            "transition": 100,
+            "volume": 0.8
         },
         {
             "name": "cicada-night",
@@ -154,7 +151,8 @@
                 "17": 0.5,
                 "17.5": 0.75,
                 "18": 1
-            }
+            },
+            "volume": 0.8
         }
     ]
 }

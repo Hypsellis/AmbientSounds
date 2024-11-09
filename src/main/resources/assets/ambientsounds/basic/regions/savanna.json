@@ -10,9 +10,12 @@
     },
     "sounds": [
         {
-            "name": "bird-plains",
+            "name": "bird",
             "files": [
-                "ambientsounds:animals.bird-plains"
+                "ambientsounds:animals.bird-calm1",
+                "ambientsounds:animals.bird-calm2",
+                "ambientsounds:animals.bird-calm3",
+                "ambientsounds:animals.bird-calm4"
             ],
             "time": {
                 "6": 0,
@@ -55,7 +58,8 @@
                 "min": 1000,
                 "max": 1500
             },
-            "transition": 100
+            "transition": 100,
+            "volume": 0.8
         },
         {
             "name": "cricket-night",
@@ -82,7 +86,8 @@
                 "min": 1000,
                 "max": 1500
             },
-            "transition": 100
+            "transition": 100,
+            "volume": 0.8
         },
         {
             "name": "cicada",
@@ -108,7 +113,8 @@
             "pause": {
                 "min": 100,
                 "max": 500
-            }
+            },
+            "volume": 0.8
         },
         {
             "name": "cicada-desert",
@@ -153,7 +159,8 @@
                 "17": 0.5,
                 "17.5": 0.75,
                 "18": 1
-            }
+            },
+            "volume": 0.8
         }
     ]
 }

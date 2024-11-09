@@ -1,11 +1,11 @@
 {
     "name": "cave",
     "relative-height": {
-        "max": -10,
+        "max": -20,
         "fade": 10
     },
-    "min-height-relative": {
-        "max": 0,
+    "absolute-height": {
+        "min": 0,
         "fade": 10
     },
     "mute": 1,
