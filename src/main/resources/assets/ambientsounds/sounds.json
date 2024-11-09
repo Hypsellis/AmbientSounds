@@ -98,64 +98,73 @@
         ],
         "category": "ambient"
     },
-    "animals.bird12": {
+    "animals.bird-calm1": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird12",
+                "name": "ambientsounds:animals/bird/bird-calm1",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird13": {
+    "animals.bird-calm2": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird13",
+                "name": "ambientsounds:animals/bird/bird-calm2",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird14": {
+    "animals.bird-calm3": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird14",
+                "name": "ambientsounds:animals/bird/bird-calm3",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird15": {
+    "animals.bird-calm4": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird15",
+                "name": "ambientsounds:animals/bird/bird-calm4",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird16": {
+    "animals.bird-loud1": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird16",
+                "name": "ambientsounds:animals/bird/bird-loud1",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-huge1": {
+    "animals.bird-loud2": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-huge1",
+                "name": "ambientsounds:animals/bird/bird-loud2",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-huge2": {
+    "animals.bird-loud3": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-huge2",
+                "name": "ambientsounds:animals/bird/bird-loud3",
+                "stream": true
+            }
+        ],
+        "category": "ambient"
+    },
+    "animals.bird-loud4": {
+        "sounds": [
+            {
+                "name": "ambientsounds:animals/bird/bird-loud4",
                 "stream": true
             }
         ],
