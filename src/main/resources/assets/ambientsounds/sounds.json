@@ -134,37 +134,37 @@
         ],
         "category": "ambient"
     },
-    "animals.bird-loud1": {
+    "animals.bird-intense1": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-loud1",
+                "name": "ambientsounds:animals/bird/bird-intense1",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-loud2": {
+    "animals.bird-intense2": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-loud2",
+                "name": "ambientsounds:animals/bird/bird-intense2",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-loud3": {
+    "animals.bird-intense3": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-loud3",
+                "name": "ambientsounds:animals/bird/bird-intense3",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-loud4": {
+    "animals.bird-intense4": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-loud4",
+                "name": "ambientsounds:animals/bird/bird-intense4",
                 "stream": true
             }
         ],
