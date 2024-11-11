@@ -135,8 +135,7 @@
                 "min": 1000,
                 "max": 1500
             },
-            "transition": 100,
-            "volume": 0.8
+            "transition": 100
         },
         {
             "name": "cricket-night",
@@ -163,8 +162,7 @@
                 "min": 1000,
                 "max": 1500
             },
-            "transition": 100,
-            "volume": 0.8
+            "transition": 100
         },
         {
             "name": "cicada-night",
@@ -182,8 +180,7 @@
                 "17": 0.5,
                 "17.5": 0.75,
                 "18": 1
-            },
-            "volume": 0.8
+            }
         }
     ]
 }
