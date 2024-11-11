@@ -1,20 +1,17 @@
 {
-    "name": "rain",
-    "overall-raining":"true",
+    "name": "mountain",
+    "biomes": [
+        "#minecraft:is_mountain"
+    ],
+    "bad-biomes": [
+        "minecraft:cherry_grove"
+    ],
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
     "sounds": [
-        {
-            "name": "rain",
-            "files": [
-                "ambientsounds:weather.rain1",
-                "ambientsounds:weather.rain2"
-            ],
-            "length": {
-                "min": 2000,
-                "max": 4000
-            },
-            "transition": 400,
-            "snowing":"false"
-        },
         {
             "name": "light-wind",
             "files": [
@@ -25,7 +22,21 @@
                 "min": 2000,
                 "max": 4000
             },
-            "transition": 400
+            "transition": 400,
+            "volume": 0.5
+        },
+        {
+            "name": "heavy-wind",
+            "files": [
+                "ambientsounds:wind.heavy-wind1",
+                "ambientsounds:wind.heavy-wind2"
+            ],
+            "length": {
+                "min": 2000,
+                "max": 4000
+            },
+            "transition": 400,
+            "volume": 0.5
         },
         {
             "name": "wind-in-leaves",

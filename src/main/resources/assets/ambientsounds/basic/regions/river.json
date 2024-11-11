@@ -1,19 +1,18 @@
 {
-    "name": "ocean",
+    "name": "river",
     "absolute-height": {
         "max": 128,
         "min": 0,
         "fade": 10
     },
     "biomes": [
-        "#minecraft:is_ocean"
+        "#minecraft:is_river"
     ],
     "sounds": [
         {
-            "name": "ocean",
+            "name": "river",
             "files": [
-                "ambientsounds:water.ocean1",
-                "ambientsounds:water.ocean2"
+                "ambientsounds:water.river"
             ],
             "volume": 0.2
         }

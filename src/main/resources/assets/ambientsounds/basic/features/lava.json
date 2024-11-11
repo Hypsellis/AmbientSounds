@@ -3,6 +3,5 @@
     "groups": [
         "lava"
     ],
-    "low-count": 10,
-    "high-count": 30
+    "low-count": 10
 }

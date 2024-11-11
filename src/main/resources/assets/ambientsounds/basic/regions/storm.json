@@ -1,31 +1,29 @@
 {
-    "name": "storm.away",
+    "name": "storm",
     "storming": true,
-    "bad-regions": [
-        "cold"
-    ],
-    "regions": [
-        "cave",
-        "sky"
-    ],
-    "relative-height": {
-        "min": -30,
-        "fade": 20
-    },
     "sounds": [
         {
             "name": "storm-away",
-            "category": "weather",
             "files": [
                 "ambientsounds:weather.storm-away"
             ]
         },
         {
+            "name": "storm-close",
+            "files": [
+                "ambientsounds:weather.storm-close"
+            ]
+        },
+        {
             "name": "howling-wind",
-            "category": "weather",
             "files": [
                 "ambientsounds:wind.howling-wind"
             ],
+            "length": {
+                "min": 2000,
+                "max": 4000
+            },
+            "transition": 400,
             "volume": 0.2
         }
     ]

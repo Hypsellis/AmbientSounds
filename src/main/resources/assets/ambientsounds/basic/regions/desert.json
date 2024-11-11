@@ -1,50 +1,34 @@
 {
     "name": "desert",
-    "variants": [
-        {
-            "features": [
-                "sand",
-                "water"
-            ]
-        },
-        {
-            "biomes": [
-                "gravel_desert"
-            ]
-        }
-    ],
-    "bad-regions": [
-        "beach"
-    ],
     "biomes": [
-        "desert",
-        "quagmire",
-        "petrified forest",
-        "menelaus",
-        "dry scrub",
-        "sands"
+        "#minecraft:is_badlands",
+        "#forge:is_desert",
+        "#c:is_desert"
     ],
-    "bad-biomes": [
-        "lush desert",
-        "ocean"
-    ],
-    "sound-collections": [
-        "wind"
-    ],
+    "absolute-height": {
+        "max": 128,
+        "min": 0,
+        "fade": 10
+    },
     "sounds": [
         {
             "name": "cicadas-desert",
-            "category": "cicadas",
             "files": [
                 "ambientsounds:animals.cicadas-desert1",
                 "ambientsounds:animals.cicadas-desert2"
             ],
-            "special-biomes": {
-                "temperature": {
-                    "min": 0.8
-                }
+            "time": {
+                "6": 0,
+                "6.5": 0.25,
+                "7": 0.5,
+                "7.5": 0.75,
+                "8": 1,
+                "16": 1,
+                "16.5": 0.75,
+                "17": 0.5,
+                "17.5": 0.25,
+                "18": 0
             },
-            "time": "day",
             "length": {
                 "min": 300,
                 "max": 600
@@ -53,6 +37,29 @@
                 "min": 200,
                 "max": 500
             }
+        },
+        {
+            "name": "light-wind",
+            "files": [
+                "ambientsounds:wind.light-wind1",
+                "ambientsounds:wind.light-wind2"
+            ],
+            "length": {
+                "min": 2000,
+                "max": 4000
+            },
+            "transition": 400,
+            "volume": 0.5
+        },
+        {
+            "name": "wind-in-leaves",
+            "files": [
+                "ambientsounds:wind.wind-in-leaves"
+            ],
+            "features": [
+                "tree"
+            ],
+            "volume": 0.1
         }
     ]
 }
