@@ -10,12 +10,10 @@
     },
     "sounds": [
         {
-            "name": "bird",
+            "name": "bird-plains",
             "files": [
-                "ambientsounds:animals.bird-calm1",
-                "ambientsounds:animals.bird-calm2",
-                "ambientsounds:animals.bird-calm3",
-                "ambientsounds:animals.bird-calm4"
+                "ambientsounds:animals.bird-plains1",
+                "ambientsounds:animals.bird-plains2"
             ],
             "time": {
                 "6": 0,
