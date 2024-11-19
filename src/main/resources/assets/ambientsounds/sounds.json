@@ -98,73 +98,64 @@
         ],
         "category": "ambient"
     },
-    "animals.bird-calm1": {
+    "animals.bird12": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-calm1",
+                "name": "ambientsounds:animals/bird/bird12",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-calm2": {
+    "animals.bird-plains1": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-calm2",
+                "name": "ambientsounds:animals/bird/bird-plains1",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-calm3": {
+    "animals.bird-plains2": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-calm3",
+                "name": "ambientsounds:animals/bird/bird-plains2",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-calm4": {
+    "animals.bird-dense1": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-calm4",
+                "name": "ambientsounds:animals/bird/bird-dense1",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-intense1": {
+    "animals.bird-dense2": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-intense1",
+                "name": "ambientsounds:animals/bird/bird-dense2",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-intense2": {
+    "animals.bird-dense3": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-intense2",
+                "name": "ambientsounds:animals/bird/bird-dense3",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "animals.bird-intense3": {
+    "animals.bird-dense4": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/bird/bird-intense3",
-                "stream": true
-            }
-        ],
-        "category": "ambient"
-    },
-    "animals.bird-intense4": {
-        "sounds": [
-            {
-                "name": "ambientsounds:animals/bird/bird-intense4",
+                "name": "ambientsounds:animals/bird/bird-dense4",
                 "stream": true
             }
         ],
