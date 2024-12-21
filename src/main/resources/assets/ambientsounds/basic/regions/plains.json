@@ -4,6 +4,12 @@
         "#forge:is_plains",
         "#c:is_plains"
     ],
+    "bad-regions": [
+        "#minecraft:is_forest",
+        "#minecraft:is_taiga",
+        "#minecraft:is_jungle",
+        "#minecraft:is_savanna"
+    ],
     "absolute-height": {
         "max": 128,
         "min": 0,

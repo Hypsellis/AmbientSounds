@@ -4,6 +4,9 @@
         "#forge:is_swamp",
         "#c:is_swamp"
     ],
+    "bad-regions": [
+        "minecraft:is_jungle"
+    ],
     "absolute-height": {
         "max": 128,
         "min": 0,
