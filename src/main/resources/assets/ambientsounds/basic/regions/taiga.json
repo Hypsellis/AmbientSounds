@@ -134,7 +134,7 @@
                 "max": 1500
             },
             "transition": 100,
-            "raining": "false"
+            "overall-raining": "false"
         },
         {
             "name": "cricket-night",
@@ -162,7 +162,7 @@
                 "max": 1500
             },
             "transition": 100,
-            "raining": "false"
+            "overall-raining": "false"
         },
         {
             "name": "cicada-night",
@@ -181,8 +181,7 @@
                 "17.5": 0.75,
                 "18": 1
             },
-            "raining": "false",
-            "snowing": "false"
+            "overall-raining": "false"
         }
     ]
 }

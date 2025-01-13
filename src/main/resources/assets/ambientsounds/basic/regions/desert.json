@@ -37,7 +37,7 @@
                 "min": 200,
                 "max": 500
             },
-            "raining": "false"
+            "overall-raining": "false"
         },
         {
             "name": "light-wind",
