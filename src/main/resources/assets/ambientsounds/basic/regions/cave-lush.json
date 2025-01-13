@@ -7,14 +7,14 @@
         {
             "name": "cave-lush",
             "files": [
-                "ambientsounds:cave.lush"
+                "ambientsounds:cave.cave-lush"
             ],
             "volume": 0.5
         },
         {
             "name": "frog-cave",
             "files": [
-                "ambientsounds:animals.animals.frog-cave"
+                "ambientsounds:animals.frog-cave"
             ],
             "pause": {
                 "min": 100,

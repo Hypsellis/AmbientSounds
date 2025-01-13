@@ -7,7 +7,7 @@
         {
             "name": "cave-deep-dark",
             "files": [
-                "ambientsounds:cave.deep-dark"
+                "ambientsounds:cave.cave-deep-dark"
             ],
             "volume": 0.2
         }
