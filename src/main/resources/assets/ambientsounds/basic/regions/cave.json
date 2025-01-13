@@ -1,15 +1,13 @@
 {
     "name": "cave",
-    "relative-height": {
-        "max": -60,
-        "fade": 10
-    },
     "absolute-height": {
-        "min": 60,
+        "max": 64,
         "fade": 10
     },
-    "mute": 1,
-    "mute-priority": 5,
+    "relative-height": {
+        "max": -10,
+        "fade": 10
+    },
     "sounds": [
         {
             "name": "cave",
