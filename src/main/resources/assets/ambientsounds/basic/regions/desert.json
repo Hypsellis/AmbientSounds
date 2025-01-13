@@ -36,7 +36,8 @@
             "pause": {
                 "min": 200,
                 "max": 500
-            }
+            },
+            "raining": "false"
         },
         {
             "name": "light-wind",

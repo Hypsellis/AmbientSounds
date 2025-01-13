@@ -65,7 +65,8 @@
                 "min": 1000,
                 "max": 1500
             },
-            "transition": 100
+            "transition": 100,
+            "raining": "false"
         },
         {
             "name": "cricket-night",
@@ -92,7 +93,8 @@
                 "min": 1000,
                 "max": 1500
             },
-            "transition": 100
+            "transition": 100,
+            "raining": "false"
         },
         {
             "name": "cicada",
@@ -118,7 +120,8 @@
             "pause": {
                 "min": 100,
                 "max": 500
-            }
+            },
+            "raining": "false"
         },
         {
             "name": "cicada-night",
@@ -136,7 +139,8 @@
                 "17": 0.5,
                 "17.5": 0.75,
                 "18": 1
-            }
+            },
+            "raining": "false"
         }
     ]
 }
