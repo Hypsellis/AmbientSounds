@@ -3,8 +3,6 @@
     "biomes": [
         "minecraft:lush_caves"
     ],
-    "mute": 1,
-    "mute-priority": 5,
     "sounds": [
         {
             "name": "cave-lush",
