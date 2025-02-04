@@ -5,7 +5,7 @@
         "fade": 10
     },
     "relative-height": {
-        "max": -10,
+        "max": 0,
         "fade": 10
     },
     "sounds": [

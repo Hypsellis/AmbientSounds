@@ -1,9 +1,5 @@
 {
     "name": "sky",
-    "absolute-height": {
-        "min": 128,
-        "fade": 20
-    },
     "sounds": [
         {
             "name": "light-wind",
@@ -16,7 +12,11 @@
                 "max": 4000
             },
             "transition": 400,
-            "volume": 0.5
+            "volume": 0.5,
+            "absolute-height": {
+                "min": 128,
+                "fade": 10
+            }
         },
         {
             "name": "heavy-wind",
@@ -29,7 +29,11 @@
                 "max": 4000
             },
             "transition": 400,
-            "volume": 0.5
+            "volume": 0.5,
+            "absolute-height": {
+                "min": 256,
+                "fade": 10
+            }
         }
     ]
 }

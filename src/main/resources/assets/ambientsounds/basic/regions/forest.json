@@ -5,8 +5,12 @@
         "minecraft:cherry_grove"
     ],
     "bad-biomes": [
-        "#minecraft:is_taiga",
-        "#minecraft:is_jungle"
+        "minecraft:is_taiga",
+        "minecraft:is_jungle",
+        "#forge:is_plains",
+        "#c:is_plains",
+        "#forge:is_swamp",
+        "#c:is_swamp"
     ],
     "absolute-height": {
         "max": 128,
@@ -88,7 +92,8 @@
             "files": [
                 "ambientsounds:animals.cricket1",
                 "ambientsounds:animals.cricket2",
-                "ambientsounds:animals.cricket3"
+                "ambientsounds:animals.cricket3",
+                "ambientsounds:animals.cricket4"
             ],
             "time": {
                 "6": 0,
@@ -135,25 +140,6 @@
                 "max": 1500
             },
             "transition": 100,
-            "overall-raining": "false"
-        },
-        {
-            "name": "cicada-night",
-            "files": [
-                "ambientsounds:animals.cicada-night"
-            ],
-            "time": {
-                "6": 1,
-                "6.5": 0.75,
-                "7": 0.5,
-                "7.5": 0.25,
-                "8": 0,
-                "16": 0,
-                "16.5": 0.25,
-                "17": 0.5,
-                "17.5": 0.75,
-                "18": 1
-            },
             "overall-raining": "false"
         }
     ]

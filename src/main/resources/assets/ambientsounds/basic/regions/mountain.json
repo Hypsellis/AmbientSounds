@@ -1,7 +1,8 @@
 {
     "name": "mountain",
     "biomes": [
-        "#minecraft:is_mountain"
+        "#minecraft:is_mountain",
+        "#minecraft:is_hill"
     ],
     "bad-biomes": [
         "minecraft:cherry_grove"
@@ -17,19 +18,6 @@
             "files": [
                 "ambientsounds:wind.light-wind1",
                 "ambientsounds:wind.light-wind2"
-            ],
-            "length": {
-                "min": 2000,
-                "max": 4000
-            },
-            "transition": 400,
-            "volume": 0.5
-        },
-        {
-            "name": "heavy-wind",
-            "files": [
-                "ambientsounds:wind.heavy-wind1",
-                "ambientsounds:wind.heavy-wind2"
             ],
             "length": {
                 "min": 2000,

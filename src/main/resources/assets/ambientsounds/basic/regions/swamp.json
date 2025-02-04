@@ -4,9 +4,6 @@
         "#forge:is_swamp",
         "#c:is_swamp"
     ],
-    "bad-biomes": [
-        "minecraft:is_jungle"
-    ],
     "absolute-height": {
         "max": 128,
         "min": 0,
@@ -21,6 +18,9 @@
                 "ambientsounds:animals.bird-plains3",
                 "ambientsounds:animals.bird-plains4",
                 "ambientsounds:animals.bird-plains5"
+            ],
+            "bad-biomes": [
+                "#minecraft:is_jungle"
             ],
             "time": {
                 "6": 0,
@@ -78,13 +78,8 @@
         {
             "name": "cricket-swamp",
             "files": [
-                "ambientsounds:animals.cricket-swamp"
-            ]
-        },
-        {
-            "name": "cicada-swamp",
-            "files": [
-                "ambientsounds:animals.cicada-swamp"
+                "ambientsounds:animals.cricket-swamp1",
+                "ambientsounds:animals.cricket-swamp2"
             ]
         }
     ]
