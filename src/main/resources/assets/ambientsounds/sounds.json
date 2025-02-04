@@ -605,24 +605,6 @@
         ],
         "category": "ambient"
     },
-    "animals.cicada-night": {
-        "sounds": [
-            {
-                "name": "ambientsounds:animals/cicada/cicada-night",
-                "stream": true
-            }
-        ],
-        "category": "ambient"
-    },
-    "animals.cicada-swamp": {
-        "sounds": [
-            {
-                "name": "ambientsounds:animals/cicada/cicada-swamp",
-                "stream": true
-            }
-        ],
-        "category": "ambient"
-    },
     "animals.cricket1": {
         "sounds": [
             {
@@ -645,6 +627,15 @@
         "sounds": [
             {
                 "name": "ambientsounds:animals/cricket/cricket3",
+                "stream": true
+            }
+        ],
+        "category": "ambient"
+    },
+    "animals.cricket4": {
+        "sounds": [
+            {
+                "name": "ambientsounds:animals/cricket/cricket4",
                 "stream": true
             }
         ],
@@ -722,10 +713,19 @@
         ],
         "category": "ambient"
     },
-    "animals.cricket-swamp": {
+    "animals.cricket-swamp1": {
         "sounds": [
             {
-                "name": "ambientsounds:animals/cricket/cricket-swamp",
+                "name": "ambientsounds:animals/cricket/cricket-swamp1",
+                "stream": true
+            }
+        ],
+        "category": "ambient"
+    },
+    "animals.cricket-swamp2": {
+        "sounds": [
+            {
+                "name": "ambientsounds:animals/cricket/cricket-swamp2",
                 "stream": true
             }
         ],
