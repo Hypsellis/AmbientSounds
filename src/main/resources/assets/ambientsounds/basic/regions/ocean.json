@@ -2,7 +2,7 @@
     "name": "ocean",
     "absolute-height": {
         "max": 128,
-        "min": 0,
+        "min": 56,
         "fade": 10
     },
     "biomes": [
