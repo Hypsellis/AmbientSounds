@@ -1,11 +1,10 @@
 {
     "name": "underwater",
-    "volume": 0.8,
     "mute": 1,
     "mute-priority": 10,
     "fade-volume": 0.1,
     "fade-pitch": 0.1,
-    "pitch": 2,
+    "pitch": 1,
     "underwater": {
         "min": 0.01
     },

@@ -8,9 +8,7 @@
         "minecraft:is_taiga",
         "minecraft:is_jungle",
         "#forge:is_plains",
-        "#c:is_plains",
-        "#forge:is_swamp",
-        "#c:is_swamp"
+        "#c:is_plains"
     ],
     "absolute-height": {
         "max": 128,

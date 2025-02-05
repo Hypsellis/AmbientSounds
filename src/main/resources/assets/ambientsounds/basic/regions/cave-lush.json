@@ -12,20 +12,12 @@
             "volume": 0.5
         },
         {
-            "name": "frog-cave",
+            "name": "frog",
             "files": [
-                "ambientsounds:animals.frog-cave"
-            ],
-            "pause": {
-                "min": 100,
-                "max": 500
-            },
-            "volume": 0.2
-        },
-        {
-            "name": "frog-special",
-            "files": [
-                "ambientsounds:animals.frog-special"
+                "ambientsounds:animals.frog1",
+                "ambientsounds:animals.frog2",
+                "ambientsounds:animals.frog3",
+                "ambientsounds:animals.frog4"
             ],
             "pause": {
                 "min": 100,

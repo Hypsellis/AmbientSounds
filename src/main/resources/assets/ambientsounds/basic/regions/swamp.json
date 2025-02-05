@@ -56,7 +56,9 @@
             "name": "frog",
             "files": [
                 "ambientsounds:animals.frog1",
-                "ambientsounds:animals.frog2"
+                "ambientsounds:animals.frog2",
+                "ambientsounds:animals.frog3",
+                "ambientsounds:animals.frog4"
             ],
             "pause": {
                 "min": 100,
@@ -65,21 +67,21 @@
             "volume": 0.2
         },
         {
-            "name": "frog-special",
+            "name": "cricket-swamp1",
             "files": [
-                "ambientsounds:animals.frog-special"
+                "ambientsounds:animals.cricket-swamp1"
             ],
-            "pause": {
-                "min": 100,
-                "max": 500
-            },
-            "volume": 0.2
+            "bad-biomes": [
+                "#minecraft:is_jungle"
+            ]
         },
         {
-            "name": "cricket-swamp",
+            "name": "cricket-swamp2",
             "files": [
-                "ambientsounds:animals.cricket-swamp1",
                 "ambientsounds:animals.cricket-swamp2"
+            ],
+            "bad-biomes": [
+                "#minecraft:is_jungle"
             ]
         }
     ]
