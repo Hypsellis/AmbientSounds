@@ -5,7 +5,9 @@
     ],
     "bad-biomes": [
         "#forge:is_plains",
-        "#c:is_plains"
+        "#c:is_plains",
+        "#forge:is_swamp",
+        "#c:is_swamp"
     ],
     "absolute-height": {
         "max": 128,
