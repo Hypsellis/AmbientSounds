@@ -8,7 +8,7 @@
         "minecraft:cherry_grove"
     ],
     "absolute-height": {
-        "max": 128,
+        "max": 192,
         "min": 56,
         "fade": 10
     },
@@ -24,6 +24,19 @@
                 "max": 4000
             },
             "transition": 400
+        },
+        {
+            "name": "heavy-wind",
+            "files": [
+                "ambientsounds:wind.heavy-wind1",
+                "ambientsounds:wind.heavy-wind2"
+            ],
+            "length": {
+                "min": 2000,
+                "max": 4000
+            },
+            "transition": 400,
+            "volume": 0.4
         },
         {
             "name": "wind-in-leaves",

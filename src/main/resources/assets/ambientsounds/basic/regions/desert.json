@@ -6,7 +6,7 @@
         "#c:is_desert"
     ],
     "absolute-height": {
-        "max": 128,
+        "max": 192,
         "min": 56,
         "fade": 10
     },

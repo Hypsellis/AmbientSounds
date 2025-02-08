@@ -1,7 +1,7 @@
 {
     "name": "sky",
     "absolute-height": {
-        "min": 128,
+        "min": 192,
         "fade": 10
     },
     "sounds": [
@@ -27,7 +27,7 @@
                 "max": 4000
             },
             "transition": 400,
-            "volume": 0.5
+            "volume": 0.4
         }
     ]
 }
