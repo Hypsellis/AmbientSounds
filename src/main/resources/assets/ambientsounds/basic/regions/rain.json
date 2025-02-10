@@ -12,8 +12,7 @@
                 "min": 2000,
                 "max": 4000
             },
-            "transition": 400,
-            "snowing":"false"
+            "transition": 400
         },
         {
             "name": "light-wind",
@@ -25,7 +24,8 @@
                 "min": 2000,
                 "max": 4000
             },
-            "transition": 400
+            "transition": 400,
+            "snowing":"true"
         },
         {
             "name": "wind-in-leaves",
@@ -35,7 +35,8 @@
             "features": [
                 "tree"
             ],
-            "volume": 0.1
+            "volume": 0.1,
+            "snowing":"true"
         }
     ]
 }
