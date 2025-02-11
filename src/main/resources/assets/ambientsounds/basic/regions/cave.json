@@ -9,7 +9,8 @@
             "name": "cave",
             "files": [
                 "ambientsounds:cave.cave1",
-                "ambientsounds:cave.cave2"
+                "ambientsounds:cave.cave2",
+                "ambientsounds:cave.cave3"
             ],
             "length": {
                 "min": 400,
@@ -37,8 +38,7 @@
         {
             "name": "cave-deep",
             "files": [
-                "ambientsounds:cave.cave-deep1",
-                "ambientsounds:cave.cave-deep2"
+                "ambientsounds:cave.cave-deep"
             ],
             "absolute-height": {
                 "max": 0,

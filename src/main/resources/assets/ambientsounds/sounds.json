@@ -884,6 +884,15 @@
         ],
         "category": "ambient"
     },
+    "cave.cave3": {
+        "sounds": [
+            {
+                "name": "ambientsounds:cave/cave3",
+                "stream": true
+            }
+        ],
+        "category": "ambient"
+    },
     "cave.cave-large1": {
         "sounds": [
             {
@@ -902,19 +911,10 @@
         ],
         "category": "ambient"
     },
-    "cave.cave-deep1": {
+    "cave.cave-deep": {
         "sounds": [
             {
-                "name": "ambientsounds:cave/cave-deep1",
-                "stream": true
-            }
-        ],
-        "category": "ambient"
-    },
-    "cave.cave-deep2": {
-        "sounds": [
-            {
-                "name": "ambientsounds:cave/cave-deep2",
+                "name": "ambientsounds:cave/cave-deep",
                 "stream": true
             }
         ],
