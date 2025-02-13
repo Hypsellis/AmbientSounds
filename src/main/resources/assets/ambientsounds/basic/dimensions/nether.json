@@ -14,8 +14,7 @@
                     "name": "nether",
                     "files": [
                         "ambientsounds:suspense.nether"
-                    ],
-                    "volume": 0.1
+                    ]
                 }
             ]
         }
