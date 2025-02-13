@@ -974,24 +974,6 @@
         ],
         "category": "ambient"
     },
-    "cave.underworld": {
-        "sounds": [
-            {
-                "name": "ambientsounds:cave/cave-underworld",
-                "stream": true
-            }
-        ],
-        "category": "ambient"
-    },
-    "suspense.nether": {
-        "sounds": [
-            {
-                "name": "ambientsounds:suspense/nether",
-                "stream": true
-            }
-        ],
-        "category": "ambient"
-    },
     "suspense.end": {
         "sounds": [
             {

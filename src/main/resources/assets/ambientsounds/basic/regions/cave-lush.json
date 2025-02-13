@@ -8,8 +8,7 @@
             "name": "cave-lush",
             "files": [
                 "ambientsounds:cave.cave-lush"
-            ],
-            "volume": 0.5
+            ]
         },
         {
             "name": "frog",
