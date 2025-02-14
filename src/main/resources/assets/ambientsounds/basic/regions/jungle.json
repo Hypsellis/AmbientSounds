@@ -36,7 +36,8 @@
         {
             "name": "bird-jungle-night",
             "files": [
-                "ambientsounds:animals.bird-jungle-night1"
+                "ambientsounds:animals.bird-jungle-night1",
+                "ambientsounds:animals.bird-jungle-night2"
             ],
             "time": {
                 "6": 1,
@@ -49,7 +50,12 @@
                 "17": 0.5,
                 "17.5": 0.75,
                 "18": 1
-            }
+            },
+            "length": {
+                "min": 2000,
+                "max": 3000
+            },
+            "transition": 400
         },
         {
             "name": "cricket-jungle",
