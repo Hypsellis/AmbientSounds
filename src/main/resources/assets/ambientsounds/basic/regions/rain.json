@@ -12,7 +12,7 @@
                 "max": 4000
             },
             "transition": 400,
-            "overall-raining":"true"
+            "raining":"true"
         },
         {
             "name": "light-wind",
@@ -25,7 +25,7 @@
                 "max": 4000
             },
             "transition": 400,
-            "overall-raining":"true",
+            "raining":"true",
             "snowing":"true"
         },
         {
@@ -37,7 +37,7 @@
                 "tree"
             ],
             "volume": 0.1,
-            "overall-raining":"true",
+            "raining":"true",
             "snowing":"true"
         }
     ]
