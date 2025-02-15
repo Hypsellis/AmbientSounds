@@ -108,11 +108,6 @@
                 "max": 1500
             },
             "transition": 100,
-            "bad-biomes": [
-                "#minecraft:is_hill",
-                "#forge:is_snowy",
-                "#c:is_snowy"
-            ],
             "overall-raining": "false",
             "snowing":"false"
         },
@@ -142,11 +137,6 @@
                 "max": 1500
             },
             "transition": 100,
-            "bad-biomes": [
-                "#minecraft:is_hill",
-                "#forge:is_snowy",
-                "#c:is_snowy"
-            ],
             "overall-raining": "false",
             "snowing":"false"
         }
