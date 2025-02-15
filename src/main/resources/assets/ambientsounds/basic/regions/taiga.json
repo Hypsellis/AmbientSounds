@@ -3,6 +3,10 @@
     "biomes": [
         "#minecraft:is_taiga"
     ],
+    "bad-biomes": [
+        "#forge:is_tundra",
+        "#c:is_tundra"
+    ],
     "absolute-height": {
         "max": 192,
         "min": 56,

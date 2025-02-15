@@ -5,8 +5,8 @@
         "minecraft:cherry_grove"
     ],
     "bad-biomes": [
-        "biomesoplenty:orchard",
-        "biomesoplenty:pumpkin_fields"
+        "#forge:is_plains",
+        "#c:is_plains"
     ],
     "absolute-height": {
         "max": 192,
