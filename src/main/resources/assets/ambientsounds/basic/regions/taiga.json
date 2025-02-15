@@ -3,10 +3,6 @@
     "biomes": [
         "#minecraft:is_taiga"
     ],
-    "bad-biomes": [
-        "#forge:is_plains",
-        "#c:is_plains"
-    ],
     "absolute-height": {
         "max": 192,
         "min": 56,
@@ -42,7 +38,10 @@
                 "min": 2000,
                 "max": 3000
             },
-            "transition": 400
+            "transition": 400,
+            "biomes": [
+                "minecraft:grove"
+            ]
         },
         {
             "name": "crow",
@@ -60,7 +59,10 @@
                 "min": 100,
                 "max": 500
             },
-            "volume": 0.5
+            "volume": 0.5,
+            "biomes": [
+                "minecraft:grove"
+            ]
         },
         {
             "name": "owl",
@@ -80,7 +82,10 @@
             "pause": {
                 "min": 100,
                 "max": 500
-            }
+            },
+            "biomes": [
+                "minecraft:grove"
+            ]
         },
         {
             "name": "wolf",
@@ -100,7 +105,10 @@
             "pause": {
                 "min": 100,
                 "max": 500
-            }
+            },
+            "biomes": [
+                "minecraft:grove"
+            ]
         },
         {
             "name": "long-wolf",
@@ -112,7 +120,10 @@
             "pause": {
                 "min": 10000,
                 "max": 50000
-            }
+            },
+            "biomes": [
+                "minecraft:grove"
+            ]
         },
         {
             "name": "cricket",
@@ -139,6 +150,10 @@
                 "max": 1500
             },
             "transition": 100,
+            "bad-biomes": [
+                "#forge:is_snowy",
+                "#c:is_snowy"
+            ],
             "overall-raining": "false",
             "snowing":"false"
         },
@@ -168,6 +183,10 @@
                 "max": 1500
             },
             "transition": 100,
+            "bad-biomes": [
+                "#forge:is_snowy",
+                "#c:is_snowy"
+            ],
             "overall-raining": "false",
             "snowing":"false"
         }

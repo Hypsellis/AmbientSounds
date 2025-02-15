@@ -1,11 +1,11 @@
 {
     "name": "mountain",
     "biomes": [
-        "#minecraft:is_mountain",
-        "#minecraft:is_hill"
+        "#minecraft:is_mountain"
     ],
     "bad-biomes": [
-        "minecraft:cherry_grove"
+        "minecraft:cherry_grove",
+        "minecraft:meadow"
     ],
     "absolute-height": {
         "max": 192,
@@ -24,7 +24,7 @@
                 "max": 4000
             },
             "transition": 400,
-            "overall-raining":"false",
+            "raining":"false",
             "snowing":"false"
         },
         {
@@ -49,7 +49,7 @@
                 "tree"
             ],
             "volume": 0.1,
-            "overall-raining":"false",
+            "raining":"false",
             "snowing":"false"
         }
     ]

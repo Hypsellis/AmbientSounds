@@ -1,8 +1,8 @@
 {
-    "name": "savanna",
+    "name": "tundra",
     "biomes": [
-        "#minecraft:is_savanna",
-        "minecraft:wooded_badlands"
+        "#forge:is_tundra",
+        "#c:is_tundra"
     ],
     "absolute-height": {
         "max": 192,
@@ -16,8 +16,7 @@
                 "ambientsounds:animals.bird-plains1",
                 "ambientsounds:animals.bird-plains2",
                 "ambientsounds:animals.bird-plains3",
-                "ambientsounds:animals.bird-plains4",
-                "ambientsounds:animals.bird-plains5"
+                "ambientsounds:animals.bird-plains4"
             ],
             "time": {
                 "6": 0,
@@ -62,7 +61,12 @@
                 "max": 1500
             },
             "transition": 100,
-            "overall-raining": "false"
+            "bad-biomes": [
+                "#forge:is_snowy",
+                "#c:is_snowy"
+            ],
+            "overall-raining": "false",
+            "snowing":"false"
         },
         {
             "name": "cricket-night",
@@ -90,62 +94,12 @@
                 "max": 1500
             },
             "transition": 100,
-            "overall-raining": "false"
-        },
-        {
-            "name": "cicada",
-            "files": [
-                "ambientsounds:animals.cicada"
+            "bad-biomes": [
+                "#forge:is_snowy",
+                "#c:is_snowy"
             ],
-            "time": {
-                "6": 0,
-                "6.5": 0.25,
-                "7": 0.5,
-                "7.5": 0.75,
-                "8": 1,
-                "16": 1,
-                "16.5": 0.75,
-                "17": 0.5,
-                "17.5": 0.25,
-                "18": 0
-            },
-            "length": {
-                "min": 100,
-                "max": 300
-            },
-            "pause": {
-                "min": 100,
-                "max": 500
-            },
-            "overall-raining": "false"
-        },
-        {
-            "name": "cicada-desert",
-            "files": [
-                "ambientsounds:animals.cicada-desert1",
-                "ambientsounds:animals.cicada-desert2"
-            ],
-            "time": {
-                "6": 0,
-                "6.5": 0.25,
-                "7": 0.5,
-                "7.5": 0.75,
-                "8": 1,
-                "16": 1,
-                "16.5": 0.75,
-                "17": 0.5,
-                "17.5": 0.25,
-                "18": 0
-            },
-            "length": {
-                "min": 300,
-                "max": 600
-            },
-            "pause": {
-                "min": 200,
-                "max": 500
-            },
-            "overall-raining": "false"
+            "overall-raining": "false",
+            "snowing":"false"
         }
     ]
 }

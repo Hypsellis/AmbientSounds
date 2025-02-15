@@ -4,9 +4,6 @@
         "#forge:is_plains",
         "#c:is_plains"
     ],
-    "bad-biomes": [
-        "#minecraft:is_savanna"
-    ],
     "absolute-height": {
         "max": 192,
         "min": 56,
@@ -59,6 +56,9 @@
                 "17.5": 0.25,
                 "18": 0
             },
+            "bad-biomes": [
+                "#minecraft:is_hill"
+            ],
             "length": {
                 "min": 1000,
                 "max": 1500
@@ -93,6 +93,9 @@
                 "max": 1500
             },
             "transition": 100,
+            "bad-biomes": [
+                "#minecraft:is_hill"
+            ],
             "overall-raining": "false",
             "snowing":"false"
         }

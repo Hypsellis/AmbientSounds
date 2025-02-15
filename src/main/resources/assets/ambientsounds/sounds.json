@@ -911,15 +911,6 @@
         ],
         "category": "ambient"
     },
-    "cave.deep-dark": {
-        "sounds": [
-            {
-                "name": "ambientsounds:cave/cave-deep-dark",
-                "stream": true
-            }
-        ],
-        "category": "ambient"
-    },
     "cave.cave-water1": {
         "sounds": [
             {
@@ -956,19 +947,19 @@
         ],
         "category": "ambient"
     },
-    "cave.cave-water5": {
+    "cave.cave-lush": {
         "sounds": [
             {
-                "name": "ambientsounds:cave/cave-water5",
+                "name": "ambientsounds:cave/cave-lush",
                 "stream": true
             }
         ],
         "category": "ambient"
     },
-    "cave.cave-lush": {
+    "cave.deep-dark": {
         "sounds": [
             {
-                "name": "ambientsounds:cave/cave-lush",
+                "name": "ambientsounds:cave/cave-deep-dark",
                 "stream": true
             }
         ],

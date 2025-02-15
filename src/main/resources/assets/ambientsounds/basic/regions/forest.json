@@ -5,10 +5,8 @@
         "minecraft:cherry_grove"
     ],
     "bad-biomes": [
-        "minecraft:is_taiga",
-        "minecraft:is_jungle",
-        "#forge:is_plains",
-        "#c:is_plains"
+        "biomesoplenty:orchard",
+        "biomesoplenty:pumpkin_fields"
     ],
     "absolute-height": {
         "max": 192,
@@ -110,6 +108,11 @@
                 "max": 1500
             },
             "transition": 100,
+            "bad-biomes": [
+                "#minecraft:is_hill",
+                "#forge:is_snowy",
+                "#c:is_snowy"
+            ],
             "overall-raining": "false",
             "snowing":"false"
         },
@@ -139,6 +142,11 @@
                 "max": 1500
             },
             "transition": 100,
+            "bad-biomes": [
+                "#minecraft:is_hill",
+                "#forge:is_snowy",
+                "#c:is_snowy"
+            ],
             "overall-raining": "false",
             "snowing":"false"
         }

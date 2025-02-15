@@ -1,12 +1,8 @@
 {
-    "name": "desert",
+    "name": "hill",
     "biomes": [
-        "#minecraft:is_badlands",
-        "#forge:is_desert",
-        "#c:is_desert"
-    ],
-    "bad-biomes": [
-        "minecraft:wooded_badlands"
+        "#minecraft:is_hill",
+        "minecraft:meadow"
     ],
     "absolute-height": {
         "max": 192,
@@ -15,10 +11,12 @@
     },
     "sounds": [
         {
-            "name": "cicadas-desert",
+            "name": "bird-plains",
             "files": [
-                "ambientsounds:animals.cicadas-desert1",
-                "ambientsounds:animals.cicadas-desert2"
+                "ambientsounds:animals.bird-plains1",
+                "ambientsounds:animals.bird-plains2",
+                "ambientsounds:animals.bird-plains3",
+                "ambientsounds:animals.bird-plains4"
             ],
             "time": {
                 "6": 0,
@@ -33,14 +31,10 @@
                 "18": 0
             },
             "length": {
-                "min": 300,
-                "max": 600
+                "min": 2000,
+                "max": 3000
             },
-            "pause": {
-                "min": 200,
-                "max": 500
-            },
-            "overall-raining": "false"
+            "transition": 200
         },
         {
             "name": "light-wind",
@@ -53,7 +47,8 @@
                 "max": 4000
             },
             "transition": 400,
-            "raining":"false"
+            "raining":"false",
+            "snowing":"false"
         },
         {
             "name": "wind-in-leaves",
@@ -64,7 +59,8 @@
                 "tree"
             ],
             "volume": 0.1,
-            "raining":"false"
+            "raining":"false",
+            "snowing":"false"
         }
     ]
 }
