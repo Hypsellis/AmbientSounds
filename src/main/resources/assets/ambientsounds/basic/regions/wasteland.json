@@ -6,7 +6,6 @@
     ],
     "bad-biomes": [
         "#minecraft:is_mountain",
-        "#minecraft:is_hill",
         "#minecraft:is_badlands",
         "#forge:is_desert",
         "#c:is_desert"

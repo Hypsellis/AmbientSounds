@@ -4,6 +4,10 @@
         "#minecraft:is_hill",
         "minecraft:meadow"
     ],
+    "bad-biomes": [
+        "#forge:is_wasteland",
+        "#c:is_wasteland"
+    ],
     "absolute-height": {
         "max": 192,
         "min": 56,

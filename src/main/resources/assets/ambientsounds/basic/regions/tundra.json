@@ -4,6 +4,10 @@
         "#forge:is_tundra",
         "#c:is_tundra"
     ],
+    "bad-biomes": [
+        "#forge:is_wasteland",
+        "#c:is_wasteland"
+    ],
     "absolute-height": {
         "max": 192,
         "min": 56,
